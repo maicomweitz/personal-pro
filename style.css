@@ -52,6 +52,9 @@ h1 {
 #areaAluno {
     display: none;
 }   
+#areaPersonal {
+    display: none;
+}
 #mensagemErro {
     color: #d93025;
     font-size: 14px;
@@ -83,4 +86,40 @@ h1 {
     background-color: #e8f5e9;
     color: #2e7d32;
     border: 1px solid #2e7d32;
+}
+.aluno {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.aluno h4 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+}
+
+.aluno p {
+    margin: 0 0 12px 0;
+    color: #555;
+}
+
+.aluno button {
+    width: 100%;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#detalhesAluno {
+    display: none;
+}
+#detalhesTreino {
+    display: none;
+}   
+#formularioTreino {
+    display: none;
 }
